@@ -1,0 +1,1 @@
+{"version":3,"file":"router.config.js","sourceRoot":"","sources":["router.config.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;IAAA,+CAAuC;IACvC,sCAAyC;IAGzC;;;;;;OAMG;IAEH,IAAa,oBAAoB;QAC/B,uDAAuD;QACvD,8BAAY,QAAkB;YAC5B,gCAAgC;YAChC,4CAA4C;YAC5C,4BAA4B;QAC9B,CAAC;QACH,2BAAC;IAAD,CAAC,AAPD,IAOC;IAPY,oBAAoB;QADhC,iBAAU,EAAE;yCAGW,wBAAQ;OAFnB,oBAAoB,CAOhC;IAPY,oDAAoB"}
