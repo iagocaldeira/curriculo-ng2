@@ -29,13 +29,11 @@
     "systemjs": "0.19.27",
     "ui-router-ng2": "1.0.0-beta.3",
     "ui-router-visualizer": "^2.0.7",
-    "zone.js": "^0.7.0"
-  },
-  "devDependencies": {
+    "zone.js": "^0.7.0",
+    "typescript": "^2.0.0",
     "@types/chai": "^3.4.34",
     "lite-server": "^2.1.0",
     "npm-run-all": "^3.1.1",
-    "shx": "^0.1.4",
-    "typescript": "^2.0.0"
+    "shx": "^0.1.4"
   }
 }
