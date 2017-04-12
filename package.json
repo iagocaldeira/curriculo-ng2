@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ui-router/quickstart-ng2.git"
+    "url": "https://github.com/iagocaldeira/curriculo-ng2.git"
   },
   "dependencies": {
     "@angular/common": "^2.0.0",
