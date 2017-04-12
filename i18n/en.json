@@ -1,0 +1,53 @@
+{
+  "TITLE": "Iago Caldeira's Resume",
+  "HOME": {
+    "SELECT": "Change language",
+    "HELLO": "Hello from Home!!!!"
+  },
+  "MENU": {
+    "WORK": "WORK",
+    "EDUCATION": "EDUCATION",
+    "SKILLS": "SKILLS",
+    "INTERESTS": "INTERESTS",
+    "LANGUAGES": "LANGUAGES"
+  },
+  "DETAILS": {
+    "WORK": {
+      "MODULE_TITLE":"Work details",
+      "DATE": "Date",
+      "JOBTITLE": "Job Title",
+      "DESCRIPTION": "Description"
+    },
+    "EDUCATION": {
+      "MODULE_TITLE":"Education details",
+      "INSTITUTION": "Institution",
+      "AREA": "Area",
+      "STUDYTYPE": "Study Type",
+      "STARTDATE": "Start Date",
+      "ENDDATE": "End Date"
+    },
+    "SKILLS": {
+      "MODULE_TITLE":"Skills details",
+      "NAME": "Name",
+      "LEVEL": "Level",
+      "KEYWORDS": "Keywords"
+    },
+    "INTERESTS": {
+      "MODULE_TITLE":"Interests details",
+      "NAME": "Name",
+      "KEYWORDS": "Keywords"
+    },
+    "LANGUAGES": {
+      "MODULE_TITLE":"Languages details",
+      "LANGUAGE": "Language",
+      "FLUENCY": "Fluency"
+    }
+  },
+  "FOOTER": {
+    "WORK": "Work Module Active - works",
+    "EDUCATION": "Education Module Active - works",
+    "SKILLS": "Skills Module Active - works",
+    "INTERESTS": "Interests Module Active - works",
+    "LANGUAGES": "Languages Module Active - works"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "TITLE": "Currículo do Iago Caldeira",
+  "HOME": {
+    "SELECT": "Mudar lingua",
+    "HELLO": "Ola da Home!!!!"
+  },
+  "MENU": {
+    "WORK":"TRABALHO",
+    "EDUCATION":"EDUCAÇÃO",
+    "SKILLS":"HABILIDADES",
+    "INTERESTS":"INTERESSES",
+    "LANGUAGES":"LÍNGUAS"
+  },
+  "DETAILS": {
+    "WORK": {
+      "MODULE_TITLE":"Detalhes de Trabalho",
+      "DATE": "Data",
+      "JOBTITLE": "Função",
+      "DESCRIPTION": "Descrição"
+    },
+    "EDUCATION": {
+      "MODULE_TITLE":"Detalhes de Educação",
+      "INSTITUTION": "Instituição",
+      "AREA": "Área",
+      "STUDYTYPE": "Estudo",
+      "STARTDATE": "Data de entrada",
+      "ENDDATE": "Data de saída"
+    },
+    "SKILLS": {
+      "MODULE_TITLE":"Detalhes das Habilidades",
+      "NAME": "Nome",
+      "LEVEL": "Nível",
+      "KEYWORDS": "Palavras Chave"
+    },
+    "INTERESTS": {
+      "MODULE_TITLE":"Detalhes dos Interesses",
+      "NAME": "Nome",
+      "KEYWORDS": "Palavras Chave"
+    },
+    "LANGUAGES": {
+      "MODULE_TITLE":"Detalhes das Línguas",
+      "LANGUAGE": "Língua",
+      "FLUENCY": "Fluência"
+    }
+  },
+  "FOOTER": {
+    "WORK": "Módulo de Trabalho Ativo - funciona",
+    "EDUCATION": "Módulo de Educação Ativo - funciona",
+    "SKILLS": "Módulo de Habilidades Ativo - funciona",
+    "INTERESTS": "Módulo de Interesses Ativo - funciona",
+    "LANGUAGES": "Módulo de Línguas Ativo - funciona"
+  }
+}

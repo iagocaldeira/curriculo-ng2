@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "institution": "PUC Minas",
+    "area": "Engenharia de computação",
+    "studyType": "Bachelor",
+    "startDate": "2013-01-01",
+    "endDate": ""
+  },
+  {
+    "id": 2,
+    "institution": "Cotemig",
+    "area": "em Informática",
+    "studyType": "Técnico",
+    "startDate": "2011",
+    "endDate": "2012"
+  }
+]

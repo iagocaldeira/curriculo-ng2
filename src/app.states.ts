@@ -7,6 +7,6 @@ export let MAIN_STATES: Ng2StateDeclaration[] = [
     // This state fills the root <ui-view></ui-view> (defined in index.html) with the AppComponent
     { name: 'app', component: AppComponent },
 
-    // This is the Future State for lazy loading the BazModule
-    { name: 'app.baz', url: '/baz', lazyLoad: loadNgModule('src/baz/baz.module') }
+    // This is the Future State for lazy loading the workModule
+    // { name: 'app.work', url: '/work', lazyLoad: loadNgModule('src/work/work.module') }
 ];

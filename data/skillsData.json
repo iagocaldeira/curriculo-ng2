@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Web Development",
+      "level": "Avançado",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Node",
+        "Angular"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento Ágil",
+      "level": "Avançado",
+      "keywords": [
+        "Scrum",
+        "XP",
+        "Kanban",
+        "JIRA <3",
+        "Git",
+        "Grunt"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "JAVA",
+      "level": "Básico",
+      "keywords": [
+        "JSF",
+        "JSP"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Python",
+      "level": "Intermediário",
+      "keywords": [
+        "Django"
+      ]
+    }
+  ]

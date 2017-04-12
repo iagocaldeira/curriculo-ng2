@@ -1,4 +1,5 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 /**
  * The top level application component.
@@ -7,20 +8,52 @@ import {Component} from '@angular/core';
  */
 
 let template = `
+  <!-- Wrapper -->
+	<div id="wrapper">
 
-<h1>My First UI-Router Angular 2 App</h1>
+		<!-- Header -->
+		<header id="header">
+			<div class="logo">
+				<span class="icon fa-diamond"></span>
+			</div>
+			<div class="content">
 
-<a uiSref="app.foo" [uiOptions]="{ inherit: false }" uiSrefActive="active">Foo</a>
-<a uiSref="app.bar" [uiOptions]="{ inherit: false }" uiSrefActive="active">Bar</a>
-<a uiSref="app.baz" [uiOptions]="{ inherit: false }" uiSrefActive="active">Baz</a>
+				<div class="inner">
+					<h1>{{ 'TITLE' | translate }}</h1>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a uiSref="app.work" [uiOptions]="{ inherit: false }" uiSrefActive="active" >{{'MENU.WORK' | translate}}</a></li>
+					<li><a uiSref="app.education" [uiOptions]="{ inherit: false }" uiSrefActive="active" >{{'MENU.EDUCATION' | translate}}</a></li>
+					<li><a uiSref="app.skills" [uiOptions]="{ inherit: false }" uiSrefActive="active" >{{'MENU.SKILLS' | translate}}</a></li>
+					<li><a uiSref="app.interests" [uiOptions]="{ inherit: false }" uiSrefActive="active" >{{'MENU.INTERESTS' | translate}}</a></li>
+					<li><a uiSref="app.languages" [uiOptions]="{ inherit: false }" uiSrefActive="active" >{{'MENU.LANGUAGES' | translate}}</a></li>
+        <li>
+              <!-- {{ 'HOME.SELECT' | translate }} -->
+              <select #langSelect (change)="translate.use(langSelect.value)">
+                <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+              </select>
+        </li>
+				</ul>
+			</nav>
+		</header>
 
-<ui-view></ui-view>
-
-<ui-view name="footer"></ui-view>
+		<!-- Main -->
+		<div id="main" style="width:500px;padding-top:50px">
+      <ui-view></ui-view>
+		</div>
+    
+		<!-- Footer -->
+		<footer id="footer">
+      <ui-view name="footer"></ui-view>
+		</footer>
 `;
 
 @Component({
   selector: 'my-app',
   template: template
 })
-export class AppComponent { }
+export class AppComponent {
+  constructor(public translate: TranslateService) { }
+}

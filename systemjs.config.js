@@ -11,7 +11,11 @@
     'ui-router-ng2':              'node_modules/ui-router-ng2/_bundles/ui-router-ng2.js',
     'rxjs':                       'node_modules/rxjs',
     'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
-    '@angular':                   'node_modules/@angular'
+    '@angular':                   'node_modules/@angular',
+
+    '@ngx-translate/core':        'node_modules/@ngx-translate/core/bundles/core.umd.js',
+    "@ngx-translate/http-loader": 'node_modules/@ngx-translate/http-loader/bundles/http-loader.umd.js'
+
   };
 
   // packages tells the System loader how to load when no filename and/or no extension
@@ -19,6 +23,7 @@
     'quickstart':                 { main: 'bootstrap.js',  defaultExtension: 'js' },
     'rxjs':                       { defaultExtension: 'js' },
     'angular2-in-memory-web-api': { defaultExtension: 'js' },
+    '@ngx-translate/core':        { defaultExtension: 'js' }
   };
 
   var ngPackageNames = [

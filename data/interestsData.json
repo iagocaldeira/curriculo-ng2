@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Hardware",
+      "keywords": [
+        "Microcontroladores",
+        "Arduino",
+        "ESP8266/32"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jogos",
+      "keywords": [
+        "Counter Strike",
+        "Dota",
+        "FIFA"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Desenvolvimento",
+      "keywords": [
+        "Web",
+        "Destop",
+        "DevOps"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Linguagens de Progração",
+      "keywords": [
+        "Compiladores",
+        "Programação Funcional",
+        "Teorias e Métodos"
+      ]
+    }
+  ]
